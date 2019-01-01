@@ -13,7 +13,7 @@ const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const WebpackBuildNotifierPlugin = require('webpack-build-notifier');
 
 // 归类打包信息
-const DashboardPlugin = require('webpack-dashboard/plugin');
+// const DashboardPlugin = require('webpack-dashboard/plugin');
 
 function resolve(dir) {
     return path.join(__dirname, './', dir)
